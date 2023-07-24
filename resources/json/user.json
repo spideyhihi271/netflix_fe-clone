@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Nguyen",
+        "email": "nguyenlt2713@gmail.com",
+        "password": "nguyen123z",
+        "pack": 0,
+        "buyAt": "",
+        "updateAt": 2023,
+        "history": []
+    },
+    {
+        "name": "Nhung",
+        "email": "nhung172@gmail.com",
+        "password": "nhung123",
+        "pack": 0,
+        "buyAt": "",
+        "updateAt": 2023,
+        "history": []
+    },
+    {
+        "name": "Pysan",
+        "email": "pysanmeo231@gmail.com",
+        "password": "meomeo123",
+        "pack": 0,
+        "buyAt": "",
+        "updateAt": 2023,
+        "history": []
+    }
+]

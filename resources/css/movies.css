@@ -1,0 +1,122 @@
+:root {
+    --select-w: 150px;
+    --select-h: 40px;
+    --movie-h: 300px;
+}
+
+.products_list-type {
+    margin-top: var(--header-h);
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list_type-item {
+    display: block;
+    margin-right: 8px;
+    padding-left: 8px;
+    width: var(--select-w);
+    height: var(--select-h);
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.list_type-item> option {
+    color: black;
+    height: var(--select-h);
+}
+
+.list_type-filter {
+    width: var(--select-w);
+    height: var(--select-h);
+    color: white;
+    border: none;
+    background-color: var(--main-color);
+    transition: all ease-in-out 0.3s;
+}
+
+.list_type-filter:hover {
+    color: white;
+    background-color: var(--hover-main-color);
+}
+
+.movies_box {
+    display: none;
+    margin: 16px 0;
+    padding: 0 5%;
+}
+
+.movies_box.active,  .movies_massage.active {
+    display: block;
+}
+
+.movies_massage {
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+}
+
+.movies_item {
+    margin: 4px 0;
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: var(--movie-h);
+    transition: all ease-in-out 0.2s;
+}
+
+.movies_item:hover {
+    transform: translateY(-1%);
+}
+
+.movies_item-image {
+    display: block;
+    width: 100%;
+    height: 85%;
+}
+
+.item-info-name {
+    margin: 4px 0;
+}
+
+.item_info-gender {
+    font-size: 14px;
+    color: var(--sub-text-color);
+}
+
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    :root {
+        --select-w: 135px;
+        --select-h: 40px;
+        --movie-h: 300px;
+    }
+
+    .products_list-type {
+        padding: 0 1%;
+    }
+
+    .list_type-item {
+        display: block;
+        margin-right: 8px;
+        margin-bottom: 4px;
+        width: var(--select-w);
+        height: var(--select-h);
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+    }
+
+    .movies_box {
+        margin: 16px 0;
+        padding: 0 1%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Mobile */
+@media (max-width: 739px) {}

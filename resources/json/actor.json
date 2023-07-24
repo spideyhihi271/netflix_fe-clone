@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Robert Downey Jr",
+        "avt": "actor1.jpg"
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "avt": "actor2.jpg"
+    },
+    {
+        "name": "Tom Cruise",
+        "avt": "actor3.jpg"
+    },
+    {
+        "name": "Brad Pitt",
+        "avt": "actor4.jpg"
+    },
+    {
+        "name": "Johnny Depp",
+        "avt": "actor5.jpg"
+    },
+    {
+        "name": "Scartlett Johansson",
+        "avt": "actor6.jpg"
+    },
+    {
+        "name": "Emma Watson",
+        "avt": "actor7.jpg"
+    },
+    {
+        "name": "Megan Fox",
+        "avt": "actor8.jpg"
+    },
+    {
+        "name": "Gal Gadot",
+        "avt": "actor9.jpg"
+    }
+]

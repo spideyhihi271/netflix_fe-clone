@@ -1,0 +1,237 @@
+.detail_container{
+    display: block;
+}
+.detail_container-banner{
+    display: block;
+    width: 100%;
+    height: var(--banner-h);
+    position: relative;
+}
+.container_banner-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.container_banner-img > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+.banner_img-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container_banner-play{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    width: var(--detail-play);
+    height: var(--detail-play);
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+.container_banner-play:hover{
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+.container_watch{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+.detail_container-banner.active > .container_banner-img{
+    z-index: 0;
+}
+.detail_container-banner.active > .container_watch{
+    z-index: 1;
+}
+.detail_container_info{
+    display: flex;
+    width: 90%;
+    margin: 16px auto;
+    color: white;
+}
+.container_info-main{
+    width: 80%;
+    padding: 0 2%;
+}
+.info_main-name{
+    font-size: 25px;
+}
+.info_main-short{
+    margin: 8px 0;
+    display: flex;
+}
+.main_short-mark{
+    display: flex;
+}
+.main_short-mark > div{
+    margin: 0 4px;
+    width: 40px;
+    height: 20px;
+    background-color: #ffb119;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+}
+.info_main-short > div{
+    margin-right: 8px;
+}
+.info_main-categlory{
+    margin: 8px 0;
+}
+.info_main-description{
+    margin: 8px 0;
+}
+.info_main-cast{
+    display: block;
+}
+.main_cast-title{
+    margin: 8px 0;
+    font-size: 20px;
+}
+.main_cast-list{
+    display: flex;
+}
+.main_cast-item{
+    display: block;
+    width: var(--cast-item-w);
+    height: var(--cast-item-h);
+    margin: 4px 0;
+    margin-right: 16px;
+    text-align: center;
+}
+.cast_item-name{
+    margin: 4px 0;
+}
+.cast_item-image{
+    display: block;
+    width: 100%;
+    height: var(--cast-item-w);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container_info-side{
+    width: 20%;
+}
+.info_side-poster{
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    height: 350px;
+}
+.detail_massage{
+    display: none;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    left: 0;
+    bottom: 40%;
+    z-index: 9999;
+    width: 35%;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #0d1216;
+    color: white;
+}
+.detail_massage.active{
+    display: block;
+}
+.detail_massage-title{
+    font-size: 18px;
+    color: var(--main-color);
+}
+.detail_massage-content{
+    margin: 8px 0;
+    font-size: 20px;
+}
+.massage-cancle-top{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 30px;
+    color: white;
+    border: none;
+}
+.detail_massage-button{
+    display: flex;
+    width: 50%;
+    margin-left: 50%;
+}
+.detail_massage-button > button{
+    margin-left: 8px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+}
+.detail_massage-button > .massage_but-cancle{
+    color: white;
+    background-color: gray;
+}
+.detail_massage-button > .massage_but-buy{
+    margin-left: 8px;
+    border-radius: 3px;
+    color: white;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--main-color);
+}
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    .detail_container_info{
+        display: flex;
+        width: 100%;
+        margin: 16px auto;
+        color: white;
+    }
+    .container_info-main{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .container_info-side{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    
+}

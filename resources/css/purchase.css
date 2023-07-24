@@ -1,0 +1,124 @@
+:root{
+    --key-h: 50px;
+    --title-h: 80px;
+    --purchase-w: 30px; 
+    --purchase-btn: 50px;
+}
+.purchase_container{
+   margin-top: 10%;
+   margin-bottom: 16px;
+   padding: 0 5%;
+   color: white;
+}
+.purchase_container-title{
+    margin: 16px 0;
+    font-size: 30px;
+}
+.purchase_container-value{
+    font-size: 18px;
+    margin: 4px 0;
+}
+.purchase_container-value > i{
+    font-size: 25px;
+    margin-right: 8px;
+    color: var(--main-color);
+}
+.purchase_ser-container{
+    display: flex;
+}
+.purchase_ser-key{
+    flex: 1;
+}
+.purchase_ser-list{
+    text-align: center;
+    flex: 3;
+    display: flex;
+}
+.purchase_ser-item{
+    flex: 1;
+}
+.purchase_ser-item.active > .ser_item-title > .item_title-border{
+    background-color: var(--main-color);
+}
+.purchase_ser-item:hover{
+   cursor: pointer;
+}
+.ser_key-title, .ser_item-title{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    height: var(--title-h);
+    line-height: var(--title-h);
+}
+.ser_key-info, .ser_item-info{
+    width: 100%;
+    height: var(--key-h);
+}
+.devives_list{
+    display: block;
+}
+.devies_item{
+    margin: 4px 0;
+    display: block;
+    text-align: center;
+}
+.devies_item > i{
+    font-size: 25px;
+}
+.devies_item > p{
+    margin-top: 4px;
+    font-size: 14px;
+}
+.item_title-border{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(135, 20, 20);
+}
+.purchase_next{
+    display: block;
+}
+.purchase_next-btn{
+    display: block;
+    width: 15%;
+    margin: 16px auto;
+    height: var(--purchase-btn);
+    font-size: 17px;
+    background-color: var(--main-color);
+    color: white;
+    box-shadow: 0 0 10px var(--main-color);
+    border: none;
+    transition: all ease-in-out 0.3s;
+}
+.purchase_next-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    .purchase_container{
+        margin-top: 10%;
+        margin-bottom: 16px;
+        padding: 0 2%;
+        color: white;
+     }
+    .purchase_ser-key{
+        display: none;
+    }
+    .item_title-border{
+        width: 90%;
+    }
+    .purchase_next-btn{
+        width: 50%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    
+}

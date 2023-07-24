@@ -1,0 +1,131 @@
+:root{
+    --control-h: 50px;
+}
+.log_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+.log_containwe-logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+    padding: 0 5%;
+}
+.log_containwe-logo > div{
+    width: 170px;
+    transform: translateY(50%);
+}   
+.log_form-login{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    right: 35%;
+    bottom: 5%;
+}
+.log_title{
+    font-size: 32px;
+}
+.log_description{
+    font-size: 20px;
+    margin: 16px 0;
+}
+.form_container{
+    display: block;
+}
+.form_control{
+    display: block;
+    margin: 16px 0;
+}
+.form_control > label{
+    display: block;
+    width: 100%;
+    font-size: 17px;
+}
+.form_control > input{
+    margin: 4px 0;
+    color: white;
+    padding-left: 2%;
+    display: block;
+    width: 100%;
+    height: var(--control-h);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+.form_control.active > input{
+    border: 1px solid red;
+}
+.form_control > p{
+    display: none;
+}
+.form_control.active > p{
+    display: block;
+    color: red;
+}
+.form_control > button{
+    margin: 8px 0;
+    width: 100%;
+    height: var(--control-h);
+    line-height: var(--control-h);
+    text-align: center;
+    color: white;
+    background-color: red;
+    border: none;
+    box-shadow: 0 0 10px red;
+}
+.form_control > button:hover{
+    cursor: pointer;
+}
+.form_control-massage{
+    display: none;
+    color: white;
+}
+.form_control-massage.success, .form_control-massage.process{
+    display: block;
+}
+.form_control-massage.success > i{
+   color: green;
+}
+.form_control-massage.process > i{
+    color: red;
+}
+
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    .log_containwe-logo{
+       height: 70px;
+       padding: 0 1%;
+    }
+    .log_containwe-logo > div{
+        width: 120px;
+        transform: translateY(50%);
+    }   
+    .log_form-login, .log_form-sign{
+        display: none;
+        position: absolute;
+        top: 15%;
+        left: 1%;
+        right: 1%;
+        bottom: 5%;
+    }
+    .active{
+        display: block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    
+}

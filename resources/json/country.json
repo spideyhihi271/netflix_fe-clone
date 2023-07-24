@@ -1,0 +1,46 @@
+[
+    {
+        "name": "America",
+        "prioritize": 0
+    },
+    {
+        "name": "Korea",
+        "prioritize": 1
+    },
+    {
+        "name": "United Kingdom",
+        "prioritize": 2
+    },
+    {
+        "name": "Japan",
+        "prioritize": 3
+    },
+    {
+        "name": "Europe",
+        "prioritize": 4
+    },
+    {
+        "name": "China",
+        "prioritize": 5
+    },
+    {
+        "name": "India",
+        "prioritize": 6
+    },
+    {
+        "name": "Australia",
+        "prioritize": 7
+    },
+    {
+        "name": "Indonesia",
+        "prioritize": 8
+    },
+    {
+        "name": "Vietnam",
+        "prioritize": 9
+    },
+    {
+        "name": "Other",
+        "prioritize": 10
+    }
+]

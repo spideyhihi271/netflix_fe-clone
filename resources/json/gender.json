@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Drama",
+        "prioritize": 0
+    },
+    {
+        "name": "Action",
+        "prioritize": 1
+    },
+    {
+        "name": "Romance",
+        "prioritize": 2
+    },
+    {
+        "name": "Fantasy",
+        "prioritize": 3
+    },
+    {
+        "name": "Animation",
+        "prioritize": 4
+    },
+    {
+        "name": "Suspense",
+        "prioritize": 5
+    },
+    {
+        "name": "Sci-Fi",
+        "prioritize": 6
+    },
+    {
+        "name": "Horror",
+        "prioritize": 7
+    },
+    {
+        "name": "Comedy",
+        "prioritize": 8
+    },
+    {
+        "name": "Crime",
+        "prioritize": 9
+    },
+    {
+        "name": "Adventure",
+        "prioritize": 10
+    },
+    {
+        "name": "Thriller",
+        "prioritize": 11
+    },
+    {
+        "name": "LGBTQ",
+        "prioritize": 12
+    },
+    {
+        "name": "Variety Show",
+        "prioritize": 13
+    },
+    {
+        "name": "Family",
+        "prioritize": 14
+    },
+    {
+        "name": "Musical",
+        "prioritize": 15
+    },
+    {
+        "name": "War",
+        "prioritize": 16
+    },
+    {
+        "name": "Catastrophe",
+        "prioritize": 17
+    },
+    {
+        "name": "Documentary",
+        "prioritize": 18
+    },
+    {
+        "name": "Orther",
+        "prioritize": 19
+    }
+]

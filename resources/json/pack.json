@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Save",
+        "price": 70000,
+        "quality": "Good",
+        "resolution": "480p",
+        "devices": [0,1],
+        "update": 2023,
+        "sold": 0
+    },
+    {
+        "name": "Basic",
+        "price": 108000,
+        "quality": "Good",
+        "resolution": "720p",
+        "devices": [0,1,2],
+        "update": 2023,
+        "sold": 0
+    },
+    {
+        "name": "Standard",
+        "price": 220000,
+        "quality": "Better",
+        "resolution": "1080p",
+        "devices": [0,1,2,3],
+        "update": 2023,
+        "sold": 0
+    },
+    {
+        "name": "High class",
+        "price": 70000,
+        "quality": "Best",
+        "resolution": "4K+HDR",
+        "devices": [0,1,2,3],
+        "update": 2023,
+        "sold": 0
+    }
+]

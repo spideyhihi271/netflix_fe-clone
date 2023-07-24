@@ -1,0 +1,221 @@
+:root{
+    --login-header: 70px;
+    --logo-w: 200px;
+    --select-w: 120px;
+    --select-h: 35px;
+    --input-h: 55px;
+}
+body{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/d049a3bd-40ee-411b-9f16-d1def798d43b/1d33b670-409b-4595-9bbd-593e0a9b08e4/VN-vi-20230313-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+}
+.login_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.login-bg{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.login_page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 0 10%;
+}
+.login_header{
+    display: flex;
+    height: var(--login-header);
+    overflow: hidden;
+}
+.login_logo{
+    flex: 4;
+}
+.login_logo-container{
+    display: block;
+    width: var(--logo-w);
+}
+.login_utils{
+    display: flex;
+    flex: 1;
+}
+.utils_select-lang{
+    display: block;
+}
+.utils_select-lang > select{
+    display: block;
+    width: var(--select-w);
+    height: var(--select-h);
+    transform: translateY(100%);
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+.util_login-link > a{
+    margin-left: 16px;
+    display: block;
+    width: var(--select-w);
+    height: var(--select-h);
+    line-height: var(--select-h);
+    transform: translateY(100%);
+    background-color: red;
+    box-shadow: 0 0 5px red;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.login_body{
+    margin: 10% 0;
+    text-align: center;
+    color: white;
+}
+.login_body-title{
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.login_body-description{
+    margin: 32px 0;
+    font-size: 30px;
+}
+.login_body-notify{
+    font-size: 25px;
+}
+.login_body-box{
+    margin: 16px auto;
+    width: 50%;
+}
+.login_body-control{
+    display: flex;
+    height: var(--input-h);
+}
+.login_body-control.active > input{
+    border: 0.01rem solid red;
+}
+.login_body-control > input{
+   width: 70%;
+   background-color: rgba(0, 0, 0, 0.5);
+   padding-left: 2%;
+   color: white;
+   margin-right: 8px;
+   font-size: 18px;
+   border: 1px solid white;
+}
+.login_body-control > input:focus{
+    outline: none;
+}
+.login_body-control > button{
+    width: 30%;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.login_body-control > button:hover{
+    cursor: pointer;
+}
+.login_body-massage{
+    display: none;
+    margin: 8px 0;
+    text-align: left;
+}
+.login_body-massage.active{
+    display: block;
+    color: red;
+}
+
+/* Mobile Tablet */
+@media (max-width: 1023px) {
+    :root{
+        --login-header: 70px;
+        --logo-w: 150px;
+        --select-w: 70px;
+        --select-h: 35px;
+        --input-h: 50px;
+    }
+    .login_page{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        padding: 0 1%;
+    }
+    .login_header{
+        display: flex;
+        height: var(--login-header);
+        overflow: hidden;
+    }
+    .login_logo-container{
+        display: block;
+        width: var(--logo-w);
+    }
+    .utils_select-lang > select{
+       transform: translateY(50%);
+    }
+    .util_login-link > a{
+        transform: translateY(50%);
+    }
+    .login_body{
+        margin: 10% 0;
+        text-align: center;
+        color: white;
+    }
+    .login_body-title{
+        font-size: 30px;
+    }
+    .login_body-description{
+        margin: 16px 0;
+        font-size: 25px;
+    }
+    .login_body-notify{
+        font-size: 20px;
+    }
+    .login_body-box{
+        margin: 16px auto;
+        width: 100%;
+    }
+    .login_body-control{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .login_body-control > input{
+       height: var(--input-h);
+       width: 100%;
+       margin-bottom: 30px;
+    }
+    .login_body-control > button{
+        width: 40%;
+        margin: 0 auto;
+        height: var(--input-h);
+    }
+    .login_body-massage{
+        display: none;
+        margin: 8px 0;
+        text-align: left;
+    }
+  
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    
+}

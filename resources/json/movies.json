@@ -1,0 +1,204 @@
+[
+    {
+        "name": "The Menu",
+        "link": "C_uTkUGcHv4",
+        "rating": 8.2,
+        "lenght": 107,
+        "pay": true,
+        "views": 232,
+        "type": 1,
+        "class": {
+            "_id": "123"
+        },
+        "country": {
+            "_id": "641729bae63bfed4b2c49c0d"
+        },
+        "public": 2022,
+        "description": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+        "story": "The Menu is a 2022 American comedy horror film directed by Mark Mylod, written by Seth Reiss and Will Tracy, based on an original story written by Tracy, written by Adam McKay, Betsy Koch and Will Ferrell produced, starring the main cast. Ralph Fiennes as a celebrity chef with Hong Chau playing his assistant and Anya Taylor-Joy, Nicholas Hoult, Janet McTeer, Reed Birney, Judith Light and John Leguizamo as diners to his exclusive restaurant he.",
+        "actors":[
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            }
+        ],
+        "genders": [
+            {
+                "_id": "64172b8ee63bfed4b2c49c20"
+            },
+            {
+                "_id": "64172b8ee63bfed4b2c49c19"
+            }   
+        ],
+        "banner": "themenu-banner.jfif",
+        "poster": "themenu-poster.jpg",
+        "pictures": [
+            "themenu-pic1.jpg",
+            "themenu-pic2.jpg",
+            "themenu-pic3.jpg",
+            "themenu-pic4.jpg"
+        ]
+    },
+    {
+        "name": "Avatar: The Way of Water",
+        "link": "gq2xKJXYZ80",
+        "rating": 7.5,
+        "lenght": 192,
+        "pay": true,
+        "views": 132,
+        "type": 1,
+        "class": {
+            "_id": "123"
+        },
+        "country": {
+            "_id": "641729bae63bfed4b2c49c0d"
+        },
+        "public": 2023,
+        "description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+        "story": "The two main characters, Jake Sully and Neytiri, are now a couple and vow to be together. However, the two are forced to leave home and explore new lands on the moon Pandora, which is when old dangers come back to hinder them.",
+        "actors":[
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            }
+        ],
+        "genders": [
+            {
+                "_id": "64172b8ee63bfed4b2c49c20"
+            },
+            {
+                "_id": "64172b8ee63bfed4b2c49c19"
+            }   
+        ],
+        "banner": "avatar2-banner.jfif",
+        "poster": "avatar2-poster.jfif",
+        "pictures": [
+            "avatar2-pic1.jfif",
+            "avatar2-pic2.jfif",
+            "avatar2-pic3.jfif",
+            "avatar2-pic4.jfif"
+        ]
+    },
+    {
+        "name": "Top Gun: Maverick",
+        "link": "giXco2jaZ_4",
+        "rating": 8.3,
+        "lenght": 130,
+        "pay": true,
+        "views": 321,
+        "type": 1,
+        "class": {
+            "_id": "123"
+        },
+        "country": {
+            "_id": "641729bae63bfed4b2c49c0d"
+        },
+        "public": 2023,
+        "description": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.",
+        "story": "A man with more than thirty years of military service is being told about. He is a very brave pilot. He seeks to avoid promotion, as it makes him feel constrained and unable to be himself again. After joking with Lieutenant Bradley Bradshaw, the son of his late best friend, Maverick is about to embark on a dangerous mission.",
+        "actors":[
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            }
+        ],
+        "genders": [
+            {
+                "_id": "64172b8ee63bfed4b2c49c20"
+            },
+            {
+                "_id": "64172b8ee63bfed4b2c49c19"
+            }   
+        ],
+        "banner": "topgun-banner.jfif",
+        "poster": "topgun-poster.jfif",
+        "pictures": [
+            "topgun-pic1.jfif",
+            "topgun-pic2.jfif",
+            "topgun-pic3.jfif",
+            "topgun-pic4.jfif"
+        ]
+    },    
+    {
+        "name": "The Last of Us #1",
+        "link": "uLtkt8BonwM",
+        "rating": 8.3,
+        "lenght": 50,
+        "pay": false,
+        "views": 123,
+        "type": 1,
+        "class": 1,
+        "country": {
+            "_id": "641729bae63bfed4b2c49c0d"
+        },
+        "public": 2023,
+        "description": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+        "story": "",
+        "actors":[
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            },
+            {
+                "_id": "64172ff2e63bfed4b2c49c3d"
+            }
+        ],
+        "genders": [
+            {
+                "_id": "64172b8ee63bfed4b2c49c20"
+            },
+            {
+                "_id": "64172b8ee63bfed4b2c49c19"
+            }   
+        ],
+        "banner": "thelastofus-banner.jfif",
+        "poster": "thelastofus-poster.jfif",
+        "pictures": [
+            "thelastofus-pic1.jfif",
+            "thelastofus-pic2.jfif",
+            "thelastofus-pic3.jfif",
+            "thelastofus-pic4.jfif"
+        ]
+    }
+]
